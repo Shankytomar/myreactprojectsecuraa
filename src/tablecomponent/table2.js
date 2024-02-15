@@ -1,8 +1,9 @@
 import React from 'react';
 import BootstrapTable from 'react-bootstrap-table-next';
 import 'bootstrap/dist/css/bootstrap.min.css';
-//import 'react-bootstrap-table-next/dist/react-bootstrap-table2.min.css';
-
+import 'react-bootstrap-table-next/dist/react-bootstrap-table2.min.css';
+//import 'bootstrap/dist/css/bootstrap.css';
+//import 'react-bootstrap-table/dist/react-bootstrap-table.min.css';
 export const Table2 = ()=>{
 
     //create some data

@@ -5,7 +5,6 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter} from 'react-router-dom';
 // importing bootstrap for <BootstrapTable />
-import 'react-bootstrap-table-next/dist/react-bootstrap-table2.min.css';
 
 
 
