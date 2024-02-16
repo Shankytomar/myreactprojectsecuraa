@@ -3,7 +3,17 @@ display: flex;
 list-style: none;
 }
 
-li{
+.homeLink{
   padding: 5px 5px 5px 5px;
 }
-
+/* .serachNcsv{
+  display: flex;
+}
+*/
+.searchBlock{
+  width:80%;
+}
+.csvBlock{
+  width:30%;
+  margin-left:3%;
+} 
