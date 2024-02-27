@@ -1,5 +1,6 @@
 # dependencies
-/node_modules
+my-react/node_modules
+dashboard1/node_modules
 /.pnp
 .pnp.js
 
