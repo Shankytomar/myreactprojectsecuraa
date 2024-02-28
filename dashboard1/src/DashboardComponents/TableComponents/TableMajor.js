@@ -64,7 +64,8 @@ const TableMajor = ({result, setResultFun})=> {
                 
         >
             {
-            props =>
+            props =>{
+                return(
                 <div>
                  <hr></hr>
                  <Alert style={{backgroundColor:"rgb(255,190,152)", display:"flex"}}>
@@ -79,7 +80,8 @@ const TableMajor = ({result, setResultFun})=> {
                 <DeleteModalComponnet showDelete={showDelete} setShowDeleteFun={setShowDeleteFun} selectedRow={selectedRow} results={result} setResultsFun={setResultFun}/>
                 <EditModalComponent showEdit={showEdit} setShowEditFun={setShowEditFun} selectedRow={selectedRow} setSelectedRowFun={setSeletedRowFun} results={result} setResultsFun={setResultFun}/>
                 </div>
-            }
+                )
+            }}
         
         
         </ToolkitProvider>
